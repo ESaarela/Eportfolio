@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(56, 56, 56);
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+header {
+  background-color: rgb(0, 60, 112);
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.buttonO {
+  background: none;
+  border: none;
+  font-size: 48px;
+}
+
+.text {
+  background-size: 100%;
+
+  font-family: arial;
+  font-size: 36px;
+}
+
+.menu {
+  position: fixed;
+  left: 80%;
+  right: 0%;
+  top: 11.8%;
+  bottom: 0.3%;
+  background-color: rgb(0, 60, 112);
+  border: solid black 1px;
+  display: none;
+  align-items: top;
+}
+
+.innerMenu {
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-left: 100px;
+
+
+}
+
+#aboutMe {
+  border: solid black 1px;
+}
+
+#jobExperience {
+  border: solid black 1px;
+}
+
+#myContacts {
+  border: solid black 1px;
+}
