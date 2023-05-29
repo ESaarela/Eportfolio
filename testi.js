@@ -25,6 +25,3 @@ const openButton = document.querySelector('.open-button');
 openButton.addEventListener('click', () => {
     sidebar.classList.toggle('show');
 });
-
-
-  

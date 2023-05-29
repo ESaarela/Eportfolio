@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(46, 48, 71);
+  
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+header {
+  background-color: rgb(60, 63, 88);
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.buttonO {
+  background: none;
+  border: none;
+  font-size: 48px;
+  color: rgb(59, 186, 156);
+}
+
+.text {
+  background-size: 100%;
+  color: rgb(59, 186, 156);
+  font-family:'Courier New', Courier, monospace;
+  font-size: 40px;
+}
+
+.menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.buttonO {
+  transition: all 0.2s;
+}
+
+.buttonO:hover {
+  font-size: 56px;
+}
+
+
+
+.innerMenu {
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-left: 100px;
+
+
+}
+
+.mainText{
+  font-family:'Courier New', Courier, monospace;
+  margin-left: 20px;
+  color: rgb(112, 119, 147);
+}
+
+#otsikko{
+  font-size: larger;
+}
+
+#leipäTeksti{
+  font-size: large;
+}
+
+#aboutMe {
+  border: black 1px;
+  border-style: outset; 
+
+}
+
+#jobExperience {
+  border: solid black 1px;
+  border-style: outset;
+
+}
+
+#myContacts {
+  border: solid black 1px;
+  border-style: outset;
+
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Eportfolio.css">
+    <link rel="stylesheet" href="aboutMe.css">
     <script src="Eportfolio.js"></script>
     <title>Eetu Saarela E-Portfolio</title>
 </head>
@@ -15,7 +15,7 @@
     <!-- HEADER (KATSO TYYLITYS!!!!!!)-->
     <header>
 
-        <!-- VASEN PASKA -->
+        <!-- Nimiotsikko -->
         <div class="header-left">
             <div class="headerInnerFlex">
                 <p class="text">Eetu Saarela - software developer</p>
@@ -23,7 +23,7 @@
         </div>
         </div>
 
-        <!-- OIKEA PASKA -->
+        <!-- Menu iconi -->
         <div class="header-right">
             <div class="headerInnerFlex">
                 <button onclick="whenClicked()" class="buttonO">☰</button>
@@ -32,17 +32,22 @@
 
     </header>
 
+    <!--sivu-menu-->
     <div class="menu">
         <div class="innerMenu">
-            <p id="aboutMe">About me</p>
-            <p id="jobExperience">Job experience & skills</p>
-            <p id="myContacts">My contacts</p>
+            
+            <li id="aboutMe"><a href="aboutMe.html">About me</a></li>
+            <li id="jobExperience"><a href="jobExperience.html"></a>Job experience</li>
+            <li id="myContacts"><a href="myContacts.html"></a>My contacts</li>
         </div>
     </div>
 
+    <!--aihe-teksti-->
     <div class="mainText">
         <p id="otsikko">About me</p>
-        <p id="leipäTeksti">My name is Eetu Saarela, I am a Finnish software developer. I am 16 years old, and I live with my parents in the pöykkölä district of Rovaniemi. I am
+        <p id="leipäTeksti">My name is Eetu Saarela, I am a Finnish software
+            developer. I am 16 years old, and I live
+            with my parents and my sister in the pöykkölä district of Rovaniemi. I am
             currently studying software development in the Jokiväylä unit of REDU vocational school.</p>
     </div>
 
