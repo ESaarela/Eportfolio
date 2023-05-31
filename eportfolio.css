@@ -1,0 +1,226 @@
+body {
+  background-color: rgb(46, 48, 71);
+
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+header {
+  background-color: rgb(60, 63, 88);
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.buttonO {
+  background: none;
+  border: none;
+  font-size: 48px;
+  color: rgb(59, 186, 156);
+}
+
+.text {
+  background-size: 100%;
+  color: rgb(59, 186, 156);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+}
+
+.buttonO {
+  transition: 0.5s;
+}
+
+.buttonO:hover {
+  font-size: 56px;
+}
+
+
+.mainText {
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 20px;
+  color: rgb(112, 119, 147);
+}
+
+.mainTextContactMe {
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 20px;
+  color: rgb(112, 119, 147);
+  display: flex;
+  align-items: center;
+}
+
+.innerDisplay {
+  display: inline-block;
+
+
+}
+
+#otsikko {
+  font-size: 32px;
+  color: rgb(59, 186, 156);
+}
+
+#leipäTeksti {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  right: 0;
+  border-left: 3px solid rgb(36, 38, 54);
+  background-color: rgb(60, 63, 88);
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: rgb(59, 186, 156);
+  transition: all 0.5s;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+
+
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+li {
+  margin-top: 10px;
+  list-style: none;
+}
+
+#home-otsikko {
+  text-align: center;
+  font-size: 52px;
+  color: rgb(59, 186, 156);
+}
+
+#home-midMenu {
+  text-align: center;
+  
+}
+
+#home-midMenu a:hover {
+  color: rgb(59, 186, 156);
+  transition: all 0.5s;
+}
+
+a {
+  color: #818181;
+  text-decoration: none;
+  font-size: 42px;
+}
+
+/* TÄMÄN ALKLA SKILLS BAR HOMMELI */
+
+
+.skill-bar {
+  width: 400px;
+  /* Säädä leveys tarpeen mukaan */
+  height: 40px;
+  /* Säädä korkeus tarpeen mukaan */
+  background-color: rgb(60, 63, 88);
+  /* Säädä väri halutuksi */
+  border: 2px solid rgb(113, 109, 128);
+  border-style: outset;
+}
+
+.skill-level-html {
+  height: 100%;
+  background: linear-gradient(to right, rgb(150, 85, 10) 70%, transparent 0%);
+
+}
+
+.skill-level-css {
+  height: 100%;
+  background: linear-gradient(to right, rgb(36, 110, 247) 65%, transparent 0%);
+}
+
+.skill-level-js {
+  height: 100%;
+  background: linear-gradient(to right, rgb(160, 168, 49) 30%, transparent 0%);
+}
+
+.skill-level-eng {
+  height: 100%;
+  background: linear-gradient(to right, rgb(230, 68, 68) 100%, transparent 0%);
+}
+
+.skill-level-fin {
+  height: 100%;
+  background: linear-gradient(to right, rgb(44, 184, 172) 100%, transparent 0%);
+}
+
+.skill-level-swe {
+  height: 100%;
+  background: linear-gradient(to right, rgb(184, 161, 31) 30%, transparent 0%);
+}
+
+.skill-name,
+.skill-bar {
+  margin-bottom: 5px;
+  margin-left: -40px;
+  /* Säädä marginaali tarpeen mukaan */
+}

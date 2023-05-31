@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eportfolio.css">
+    <script src="Eportfolio.js"></script>
+    <title>Eetu Saarela E-Portfolio</title>
+</head>
+
+<body>
+
+    <!-- HEADER (KATSO TYYLITYS!!!!!!)-->
+    <header>
+
+        <!-- Nimiotsikko -->
+        <div class="header-left">
+            <div class="headerInnerFlex">
+                <p class="text">Eetu Saarela - software developer</p>
+            </div>
+        </div>
+        </div>
+
+        <!-- Menu iconi -->
+        <div class="header-right">
+            <div class="headerInnerFlex">
+                <button onclick="openNav()" class="buttonO">☰</button>
+            </div>
+        </div>
+
+    </header>
+
+    <!--sivu-menu-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html">Home</a>
+        <a href="aboutMe.html">About me</a>
+        <a href="workXPandSkills.html">Work experience & skills</a>
+        <a href="contactMe.html">Contact me</a>
+    </div>
+
+    <!--aihe-teksti-->
+    <div class="mainText">
+        <p id="otsikko">Work experience & skills</p>
+        <p id="leipäTeksti">While I have yet to gain specific job experience in the IT field, I am actively pursuing
+            knowledge and developing relevant skills that will position me as a capable and motivated worker within this
+            line of work.
+            <br>
+            <br>
+            while I lack work experience in the IT-field, I have previously worked in the restaurant business, and I am
+            currently a service station cafe employee at a Shell gas station.
+            <br>
+            <br>
+            Below is a diagram showing how much experience I personally feel I have in each coding language and spoken
+            language.
+        </p>
+        <br>
+
+        <p style="font-size: 36px; color: rgb(59, 186, 156);">My programming & language skills:</p>
+        <div style="display: flex;">
+        <ul id="skills-bar"> 
+            <li>
+                <span class="skill-name" style="font-size: 38px;">HTML - 70%</span>
+                <div class="skill-bar">
+                    <div class="skill-level-html"></div>
+                </div>
+            </li>
+            <!-- Toista yllä oleva rakenne muille ohjelmointikielille ja puhekielille -->
+            <li>
+                <span class="skill-name" style="font-size: 38px;">CSS - 65%</span>
+                <div class="skill-bar">
+                    <div class="skill-level-css"></div>
+                </div>
+            <li>
+                <span class="skill-name" style="font-size: 38px;">JS - 30%</span>
+                <div class="skill-bar">
+                    <div class="skill-level-js"></div>
+    </div>
+    
+    </ul>
+    
+    <ul id="skills-bar" style="margin-left: 50px;">
+        <li>
+            <span class="skill-name" style="font-size: 38px;">Finnish - 100%</span>
+            <div class="skill-bar">
+                <div class="skill-level-fin"></div>
+            </div>
+        </li>
+            <span class="skill-name" style="font-size: 38px;">English - 100%</span>
+            <div class="skill-bar">
+                <div class="skill-level-eng"></div>
+            </div>
+        </li>
+        <li>
+            <span class="skill-name" style="font-size: 38px;">swedish - 30%</span>
+            <div class="skill-bar">
+                <div class="skill-level-swe"></div>
+            </div>
+        </li>
+     
+    </ul>
+    </div>
+</div>
+
+</body>
+
+
+</html>
