@@ -224,3 +224,10 @@ a {
   margin-left: -40px;
   /* Säädä marginaali tarpeen mukaan */
 }
+
+#kuva {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
